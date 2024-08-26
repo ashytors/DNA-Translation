@@ -1,4 +1,5 @@
 Nuhita Aunillah (21/481196/TK/53114)
+
 Tugas Komputasi Genomik - Translasi sekuen RNA menjadi sekuen asam amino
 
 terdapat 2 file, file uji coba yaitu tugas1.ipynb serta dna-translation-clean.py yang berisi fungsi yang sudah clean dan siap diimport. 
