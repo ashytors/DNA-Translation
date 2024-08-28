@@ -1,5 +1,5 @@
 import numpy as np
-
+            
 #mengkodekan asam amino dari coding region
 def asam_amino(coding_region):
     untai_asam_amino=[]
@@ -67,3 +67,13 @@ def five_utr(sekuen):
         else:
             i += 1
     return five_utr_region, asam_amino(coding_region), three_utr_region
+
+#transkripsi dari untai DNA ke mRNA
+def transkripsi(DNA):
+    sekuen = ""
+    for l in DNA:
+        if l == 'T':
+            sekuen += 'U'
+        else:
+            sekuen += l
+    return five_utr(sekuen)
