@@ -11,4 +11,6 @@ fungsi five_utr() adalah fungsi tambahan untuk memisahkan 5' untranslated region
 fungsi ini menggunakan array splicing untuk memisahkan daerah pada sebelum dan setelah kodon start AUG, dan juga daerah sebelum dan sesudah kodon stop UAA, UAG, dan UGA untuk kemudian daerah di antara kodon stop dan kodon start dijadikan string input untuk fungsi asam_amino().
 pada fungsi ini diasumsikan seluruh area coding region adalah exon karena menurut literatur diperlukan machine learning untuk dapat mengenali intron di antara coding region.
 
+fungsi transkripsi() adalah fungsi untuk melakukan transkripsi dari kode DNA ke mRNA. fungsi ini akan menemukan kode T untuk diganti ke kode U dan akan mengembalikan sekuens dengan U dan sekaligus memanggil fungsi five_utr() sampai akhirnya dilakukan translasi.
+
 //jika ternyata pemahaman saya salah, saya sangat mengharapkan donor ilmu dari pembaca sekalian :D
